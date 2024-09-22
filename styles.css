@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+p, ul {
+    margin: 1rem 0;
+    line-height: 1.8;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 2rem;
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#skills li {
+    background-color: #eaeaea;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    min-width: 120px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.job, .project {
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    background-color: #eaeaea;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+a:hover {
+    background-color: #333;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
